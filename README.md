@@ -41,7 +41,7 @@ directory [private](./private/).
    ```bash
    # Use orange color 'ffa500' for Team Cheetos. Enter selected password when
    # prompted
-   npx staticrypt sample.html --template-color-primary "#ffa500" -d private
+   npx staticrypt decrypted/sample.html --template-color-primary "#ffa500" -d private
    ```
 
 4. Delete the plaintext file `decrypted/sample.html`. Publish only the encrypted
