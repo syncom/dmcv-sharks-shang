@@ -23,7 +23,7 @@ jobs:
           sudo apt install tidy -y
           tidy --version
       - name: 'Checkout repository'
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.1.1
       - name: "Run HTML tidy"
         run: |
           set -euxo pipefail
